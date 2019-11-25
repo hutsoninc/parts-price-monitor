@@ -1,0 +1,26 @@
+{
+  "name": "parts-price-monitor",
+  "version": "1.0.0",
+  "description": "Checks prices of parts on johndeerestore.com and updates in a Google Sheet.",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Austin Gordon",
+    "email": "gordon.austin2@gmail.com",
+    "url": "https://github.com/AustinLeeGordon"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.7.1",
+    "bottleneck": "^2.19.5",
+    "dotenv": "^8.2.0",
+    "fetch-retry": "^2.2.3",
+    "googleapis": "^45.0.0",
+    "jsdom": "^15.2.1",
+    "lodash": "^4.17.15"
+  }
+}
